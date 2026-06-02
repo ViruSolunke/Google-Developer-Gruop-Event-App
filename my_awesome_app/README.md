@@ -1,17 +1,245 @@
-# my_awesome_app
+# Google Developer Group Event App
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This is a Flutter-based application developed for managing and displaying Google Developer Group Event information.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+# Prerequisites
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Before running this project, make sure the following software is installed:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 1. Flutter SDK
+
+Download and install Flutter SDK:
+
+https://flutter.dev/docs/get-started/install
+
+Verify installation:
+
+```bash
+flutter --version
+```
+
+### 2. Android Studio
+
+Install Android Studio:
+
+https://developer.android.com/studio
+
+Required components:
+
+* Android SDK
+* Android SDK Platform Tools
+* Android SDK Build Tools
+* Android SDK Command-line Tools
+
+### 3. VS Code (Optional)
+
+Install VS Code:
+
+https://code.visualstudio.com/
+
+Recommended Extensions:
+
+* Flutter
+* Dart
+
+### 4. Git
+
+Install Git:
+
+https://git-scm.com/downloads
+
+Verify installation:
+
+```bash
+git --version
+```
+
+---
+
+# Clone the Repository
+
+```bash
+git clone <repository-url>
+```
+
+Navigate to the project directory:
+
+```bash
+cd my_awesome_app
+```
+
+---
+
+# Install Dependencies
+
+Run:
+
+```bash
+flutter pub get
+```
+
+This command downloads all required project packages.
+
+---
+
+# Verify Flutter Setup
+
+Check Flutter environment:
+
+```bash
+flutter doctor
+```
+
+Resolve any issues shown before proceeding.
+
+---
+
+# Android Emulator Setup
+
+1. Open Android Studio
+2. Go to Device Manager
+3. Create a Virtual Device
+4. Download a recommended Android system image
+5. Start the emulator
+
+Verify available devices:
+
+```bash
+flutter devices
+```
+
+---
+
+# Run the Application
+
+### Run on Android Emulator
+
+```bash
+flutter run
+```
+
+### Run on a Specific Device
+
+```bash
+flutter devices
+```
+
+Copy the device ID and run:
+
+```bash
+flutter run -d <device-id>
+```
+
+### Run on Chrome
+
+```bash
+flutter run -d chrome
+```
+
+---
+
+# Useful Commands
+
+### Clean Project
+
+```bash
+flutter clean
+```
+
+### Reinstall Dependencies
+
+```bash
+flutter pub get
+```
+
+### Check Connected Devices
+
+```bash
+flutter devices
+```
+
+### Check Flutter Environment
+
+```bash
+flutter doctor
+```
+
+---
+
+# Common Issues
+
+## Flutter Command Not Recognized
+
+Add Flutter SDK to system PATH.
+
+Example:
+
+```text
+C:\src\flutter\bin
+```
+
+Restart terminal and run:
+
+```bash
+flutter --version
+```
+
+---
+
+## Android Licenses Not Accepted
+
+Run:
+
+```bash
+flutter doctor --android-licenses
+```
+
+Accept all licenses.
+
+---
+
+## No Emulator Detected
+
+Start an Android emulator from Android Studio Device Manager and verify using:
+
+```bash
+flutter devices
+```
+
+---
+
+# Project Structure
+
+```text
+my_awesome_app/
+│
+├── android/
+├── ios/
+├── lib/
+│   ├── main.dart
+│
+├── assets/
+├── pubspec.yaml
+├── README.md
+└── test/
+```
+
+---
+
+# Development Notes
+
+* Built using Flutter
+* Supports Android and Web platforms
+* Ensure Flutter SDK remains updated
+* Run `flutter pub get` after pulling new changes
+
+---
+
+# Author
+
+Virendra Solunke
+Google Developer Group Event App
