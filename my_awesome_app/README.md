@@ -10,6 +10,106 @@ This is a Flutter-based application developed for managing and displaying Google
 
 Before running this project, make sure the following software is installed:
 
+______________________________________________________________________________________________________
+
+Step 1: Flutter SDK Download 
+
+Official website:
+
+Flutter SDK Download
+
+Download The flutter and Extract them on the C drive on any Folder, example:
+
+C:\src\flutter
+
+Step 2: Set Environment Variable
+
+Add the flutter folder bin path:
+
+C:\src\flutter\bin
+
+Windows :
+
+1 Search → "Environment Variables"
+2 "Edit the system environment variables"
+3 Environment Variables
+4 Path → Edit
+6 New
+7 Add: C:\src\flutter\bin
+8 OK → OK → OK
+
+Step 3: Open CMD
+
+Run the command to check the version of the flutter:
+
+flutter --version
+
+Step 4: Verify Setup
+Run Command This tells you what is missing or not:
+
+flutter doctor
+
+Step 5: Project Create
+
+flutter create my_awesome_app
+
+* If You Want to run in Vs code the Follow The step After This *
+
+1. Android SDK Command Line Tools install
+
+Open Android Studio :
+
+Android Studio → More Actions → SDK Manager
+SDK Tools tab open karo
+Tick On The Following:
+Android SDK Command-line Tools (latest)
+Android SDK Platform-Tools
+Android SDK Build-Tools
+Apply → OK → Install
+
+After The Installetion Open Terminal And Run the Command :
+
+flutter doctor --android-licenses
+
+Then Click:
+
+y
+y
+y
+y
+
+
+2) VS Code Extensions Install
+
+Open VS Code → Extensions (Ctrl+Shift+X)
+
+Install:
+
+1) Flutter
+2) Dart
+
+Open Vs Code Terminal and Run Command 
+
+flutter doctor
+
+Create The Project :-
+
+flutter create my_app
+
+Open Project :
+
+cd my_app
+
+Runing The Project :
+
+Opent the Terminal and Run the command :
+
+flutter run -d chrome
+
+
+___________________________________________________________________________________________
+
+
 ### 1. Flutter SDK
 
 Download and install Flutter SDK:
@@ -244,100 +344,3 @@ my_awesome_app/
 Virendra Solunke
 Google Developer Group Event App
 
-
-
-______________________________________________________________________________________________________
-
-Step 1: Flutter SDK Download 
-
-Official website:
-
-Flutter SDK Download
-
-Download The flutter and Extract them on the C drive on any Folder, example:
-
-C:\src\flutter
-
-Step 2: Set Environment Variable
-
-Add the flutter folder bin path:
-
-C:\src\flutter\bin
-
-Windows :
-
-1 Search → "Environment Variables"
-2 "Edit the system environment variables"
-3 Environment Variables
-4 Path → Edit
-6 New
-7 Add: C:\src\flutter\bin
-8 OK → OK → OK
-
-Step 3: Open CMD
-
-Run the command to check the version of the flutter:
-
-flutter --version
-
-Step 4: Verify Setup
-Run Command This tells you what is missing or not:
-
-flutter doctor
-
-Step 5: Project Create
-
-flutter create my_awesome_app
-
-* If You Want to run in Vs code the Follow The step After This *
-
-1. Android SDK Command Line Tools install
-
-Open Android Studio :
-
-Android Studio → More Actions → SDK Manager
-SDK Tools tab open karo
-Tick On The Following:
-Android SDK Command-line Tools (latest)
-Android SDK Platform-Tools
-Android SDK Build-Tools
-Apply → OK → Install
-
-After The Installetion Open Terminal And Run the Command :
-
-flutter doctor --android-licenses
-
-Then Click:
-
-y
-y
-y
-y
-
-
-2) VS Code Extensions Install
-
-Open VS Code → Extensions (Ctrl+Shift+X)
-
-Install:
-
-1) Flutter
-2) Dart
-
-Open Vs Code Terminal and Run Command 
-
-flutter doctor
-
-Create The Project :-
-
-flutter create my_app
-
-Open Project :
-
-cd my_app
-
-Runing The Project :
-
-Opent the Terminal and Run the command :
-
-flutter run -d chrome
